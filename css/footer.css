@@ -1,0 +1,19 @@
+.footer{
+    text-align: center;
+}
+
+.footer p{
+    font-weight: bold;
+}
+
+.footer a{
+    font-weight: normal;
+    color: var(--dark);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer a:hover{
+    letter-spacing: 2px;
+    font-weight: bold;
+}

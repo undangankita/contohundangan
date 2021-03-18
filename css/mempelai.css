@@ -1,0 +1,20 @@
+.mempelai{
+    text-align: center;
+    margin: 0px auto;
+    background-color: var(--dark);
+    color: var(--white);
+    padding-bottom: 50px;
+}
+
+.mempelai .box-content{
+}
+
+.mempelai .box-content .content{
+    padding: 30px 20px;
+}
+
+.mempelai .profile{
+    margin: 30px 0;
+    height: 300px;
+    border-radius: 100px;
+}

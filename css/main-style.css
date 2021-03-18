@@ -1,0 +1,150 @@
+:root{
+    --white: #ffffff;
+    --black: #2c2c2c;
+    --dark: #4b7d74;
+    --headfont: 'Parisienne', cursive;
+    --bodyfont: 'Montserrat', sans-serif;
+}
+
+body,html {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+    color: var(--dark);
+    overflow-y: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+
+h1,h2,h3{
+    font-family: var(--headfont);
+    margin: 0;
+    line-height: 2;
+}
+
+button,p,a,h4{
+    font-family: var(--bodyfont);
+}
+
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+
+h1{
+    font-size: 50pt;
+}
+
+h2{
+    font-size: 35pt;
+}
+
+h2 span{
+    font-size: 20pt;
+}
+
+h3{
+    font-size: 30pt;
+}
+
+p{
+    font-size: 12pt;
+}
+
+p span{
+    font-style: italic;
+}
+
+button{
+    font-size: 12pt;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 35pt;
+    }
+
+    h2{
+        font-size: 25pt;
+    }
+
+    h2 span{
+        font-size: 16pt;
+    }
+
+    h3{
+        font-size: 20pt;
+    }
+
+    p{
+        font-size: 11pt;
+    }
+
+    button{
+        font-size: 11pt;
+    }
+}
+
+hr{
+    border: none;
+}
+
+.box-content{
+    background-color: var(--white);
+    color: var(--dark);
+    border-radius: 20px;
+    width: 70%;
+    margin: 0 auto;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+@media screen and (max-width: 500px){
+    .box-content{
+        width: 90%;
+    }
+}
+
+
+/* DECORATION-----------------------------------------------------------*/
+/* -------------------------------------------------------------------- */
+.section-top{
+    fill: #ffffff;
+    width: 100%;
+    height: auto;
+    margin-bottom: -10px;
+}
+
+.section-bot{
+    margin-top: -5px;
+    fill: #ffffff;
+    width: 100%;
+    height: auto;
+}
+
+.section-bot-theme{
+    margin-top: -5px;
+    fill: var(--dark);
+    width: 100%;
+    height: auto;
+}
+
+.line-top{
+    width: 200px;
+    height: auto;
+}
+
+.line-bot{
+    width: 200px;
+    height: auto;
+}
+
+.galeri{
+    background-color: var(--dark);
+}
